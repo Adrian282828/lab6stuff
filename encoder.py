@@ -13,6 +13,15 @@ def menu():
     print("1. Encode")
     print("2. Decode")
     print("3. Quit")
+          
+def decode(encoded):
+    numbers=[]
+    newdecoded=''
+    for i in range(len(encoded)):
+        numbers.append(int(encoded[i])-3)
+    for j in range(len(numbers)):
+        newdecoded+=str(numbers[j])
+    return newdecoded 
 
 
 
