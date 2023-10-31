@@ -49,7 +49,7 @@ def main():
             print("Your password has been encoded and stored!\n")
 
         elif choice == "2":
-            print("the encoded password is", x, "and the original password is", code)
+            print("The encoded password is", x, "and the original password is", code, ".")
 
         elif choice == "3":
             exit()
