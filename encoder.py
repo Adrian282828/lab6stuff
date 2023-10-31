@@ -40,3 +40,5 @@ def main():
             z==1000
         else:
             print("Wrong input")
+if __name__ == '__main__':
+    main()
